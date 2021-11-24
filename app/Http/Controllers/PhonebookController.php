@@ -24,7 +24,7 @@ class PhonebookController extends Controller
         }
 
         $phonebooks=$phonebooks->get();
-        
+
         return view('phonebook.index', compact('phonebooks'));
     }
 
